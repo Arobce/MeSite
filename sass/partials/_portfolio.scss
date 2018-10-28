@@ -1,0 +1,51 @@
+#portfolio{
+    background-color: $black;
+    .title, .subtitle{
+        color: $white;
+        text-align: center;
+    }
+
+
+    .columns{
+        width: 90%;
+        margin: 0 auto;
+        .column{
+            text-align: center;
+        
+            figure{
+                -moz-border-radius:12px;
+                -webkit-border-radius:12px;
+                border-radius: 12px;
+            }
+            img{
+                -moz-border-radius:12px;
+                -webkit-border-radius:12px;
+                border-radius: 12px;
+            }
+            figcaption{
+                position: absolute;
+                top: 40px;
+                padding: 0 20px;
+                visibility: hidden;
+                width: 100%;
+            }
+
+        }
+
+        .column:hover{
+            figure{
+                background-color: $gray;
+                transition: .3s;
+                figcaption{
+                    visibility: visible;
+                }
+                img{
+                    filter: brightness(50%);
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+}

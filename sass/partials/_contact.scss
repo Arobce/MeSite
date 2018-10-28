@@ -1,0 +1,32 @@
+#contact{
+    background-color: $black;
+    .title,.subtitle{
+        color: $white;
+    }
+    form{
+        text-align: left;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .button{
+        margin-top: 30px;
+        transition: 0.3s;
+    }
+    .button:hover{
+        color: $white;
+        background-color: black;
+    }
+    .notification{
+        width: 30%;
+        padding: 6px;
+        margin: 10px auto;
+    }
+    label{
+        color: $red;
+    }
+    .field-label{
+        color: $white;
+    }
+
+}

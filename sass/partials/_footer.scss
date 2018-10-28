@@ -1,0 +1,43 @@
+footer{
+    text-align: center;
+    .logo-wrapper{
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        margin-top: 30px;
+        visibility: hidden;
+    }
+    .slogan{
+        font-size: 25px;
+        margin: 32px 0;
+    }
+    .social{
+        margin-bottom: 32px;
+        a{
+            color: $black;
+        }
+        a:hover{
+            color: $white;
+        }
+        span{
+            -moz-border-radius:50%;
+            -webkit-border-radius:50%;
+            border-radius:50%;
+            transition: 0.3s;
+            border: 1px solid $gray;
+
+        }
+        span:hover{
+            background-color: $black;
+        }
+        .columns{
+            width: 16%;
+            margin: 0 auto;
+        }
+    }
+    .copyright{
+        margin-bottom: 32px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,43 @@
+#services{
+    div.block{
+        text-align: center;
+        h2{
+            color: $white;
+            padding-top: 10px;
+        }
+        .tile{
+            transition: box-shadow .3s;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border-radius:10px;
+            .things-like{
+                margin: 30px 0;
+            }
+            .tools-title,.things-title{
+                color: $blue;
+            }
+            p{
+                font-size: 16px;
+            }
+            .title{
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            ul{
+                list-style: none;
+                margin-left: 0;
+                margin-top: 0;
+            }
+        }
+        article.tile:hover{
+            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        }
+ 
+    }
+    
+    
+}

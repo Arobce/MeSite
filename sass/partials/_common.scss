@@ -1,0 +1,48 @@
+*{
+    font-family: $robo;
+}
+
+h2{
+    font-family: $lato;
+    font-size: 30px;
+}
+
+//Colors
+.red{
+    color: $red;
+    text-decoration: underline;
+}
+
+.green{
+    color: $green;
+    text-decoration: underline;
+}
+
+.blue{
+    color: $blue;
+    text-decoration: underline;
+}
+
+.purple{
+    color: $purple;
+    text-decoration: underline;
+}
+
+.gray{
+    color: $gray;
+    text-decoration: underline;
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
