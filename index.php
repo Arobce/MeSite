@@ -155,7 +155,7 @@
                 </div>
                 <div class="column">
                     <figure class="image is-3by2">
-                        <img class="project-thumb" src="assets/traversity.jpg">
+                        <img class="project-thumb" src="assets/traversity.png">
                         <figcaption>
                             <h1 class="title is-size-5 is-size-4-widescreen">Hackathon winning, intelligent and flexible travel companion.</h1>
                             <a class="button is-primary is-inverted is-outlined" href="http://traversity.herokuapp.com/">
@@ -228,7 +228,6 @@
         <h4 class="subtitle">Lets build something together!</h4>
         <div class="form columns">
             <form name="contact-form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <span class="field-label">Name</span><br>
                 <div class="field">
                     <p class="control has-icons-left">
                         <input class="input" type="text" name="name" placeholder="Name">
@@ -237,7 +236,6 @@
                         </span>
                     </p>
                 </div>
-                <span class="field-label">Phone</span><br>
                 <div class="field">
                     <p class="control has-icons-left">
                         <input class="input" type="number" name="phone" placeholder="Phone">
@@ -246,7 +244,6 @@
                         </span>
                     </p>
                 </div>
-                <span class="field-label">Email</span><br>
                 <div class="field">
                     <p class="control has-icons-left">
                         <input class="input" type="email" placeholder="Email" name="email" required>
@@ -255,7 +252,6 @@
                         </span>
                     </p>
                 </div>
-                <span class="field-label">Message</span><br>
                 <div class="field">
                     <p class="control has-icons-left">
                         <textarea rows="5" cols="50" class="input is-large" name="message" placeholder="Message" required></textarea>
@@ -297,7 +293,7 @@
             <img src="assets/logo.png" alt="RC">
         </div>
 
-        <p class="slogan"><span class="purple">Living</span> ,<span class="blue">Learning</span>
+        <p class="slogan"><span class="purple">Living</span>, <span class="blue">Learning</span>
             and <span class="green">Growing</span> everyday.</p>
 
         <div class="social block">
